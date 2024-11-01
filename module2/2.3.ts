@@ -38,6 +38,10 @@
     // generic tuple
     type GenericTuple<X, Y> = [X, Y]
     const manush: GenericTuple<string, string> = ['X', 'Y'];
-    
+
+
+    const UserWithID: GenericTuple<number, { name: string, email: string }> = [123, { name: 'Zanet', email: 'z@gamil.com' }];
+
+
     // 
 }
