@@ -34,5 +34,9 @@
             age: 35
         }
     ]
+
+    // generic tuple
+    type GenericTuple = []
+    const manush: [string, string] = ['X', 'Y'];
     // 
 }
