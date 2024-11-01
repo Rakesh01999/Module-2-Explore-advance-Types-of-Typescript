@@ -19,8 +19,12 @@
     const add = (x: number, y: number) => x + y
     add(20, 30)
 
+    interface User {
+        name: string;
+        age: number
+    }
 
-    const user: GenericArray<{ name: string; age: number }> = [
+    const user: GenericArray<User> = [
         {
             name: "Rakesh",
             age: 25
