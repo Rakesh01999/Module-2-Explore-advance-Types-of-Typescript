@@ -4,7 +4,7 @@
     // type assertion
     let anything : any;
     anything = "Next level web development";
-    (anything as string). // . shows all the method of string
+    // (anything as string). // . shows all the method of string
 
     // anything = 222;
     // (anything as number). // . shows all the method of number
