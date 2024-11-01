@@ -36,7 +36,8 @@
     ]
 
     // generic tuple
-    type GenericTuple = []
-    const manush: [string, string] = ['X', 'Y'];
+    type GenericTuple<X, Y> = [X, Y]
+    const manush: GenericTuple<string, string> = ['X', 'Y'];
+    
     // 
 }
