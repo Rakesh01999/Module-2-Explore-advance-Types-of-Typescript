@@ -14,20 +14,24 @@
     const mentors: Array<string> = ["Mr. X", "Mr. Y", "Mr. W", "Mr. Z"];
 
     // const boolArray: boolean[] = [true, false, true];
-    const boolArray: Array<boolean> = [true, false, true];
+    const boolArray: GenericArray<boolean> = [true, false, true];
 
     const add = (x: number, y: number) => x + y
     add(20, 30)
 
 
-    const user: = [
+    const user: GenericArray<{ name: string; age: number }> = [
         {
-            name:"Rakesh",
-            age:25
+            name: "Rakesh",
+            age: 25
         },
         {
-            name:"Haitu",
-            age:35
+            name: "Haitu",
+            age: 35
+        },
+        {
+            name: "Saiwan",
+            age: 35
         }
     ]
     // 
