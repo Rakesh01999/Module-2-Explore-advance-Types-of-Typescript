@@ -24,18 +24,12 @@
 
 
     const createArrayWithTuple = <T, Q>(param1: T, param2:Q) => {
-        return [param1];
+        return [param1, param2];
     }
 
-    const res1 = createArray('Bangladesh') 
-    const resGeneric = createArrayWithGeneric<string>('Bangladesh')
+    const res10 = createArrayWithTuple('Bangladesh', 222); 
+    const res11 = createArrayWithTuple<string, object>('Bangladesh', {name: 'Asia'})
 
-    type User = { id: number; name: string };
-
-    const resGenericObj = createArrayWithGeneric<User>({
-        id: 222,
-        name: 'Mr, Pashan'
-    })
 
     // 
 }
