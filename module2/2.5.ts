@@ -31,6 +31,16 @@
     const res11 = createArrayWithTuple<string, object>('Bangladesh', {name: 'Asia'})
 
 
+    const addCourseToStudent = <T>(student: T):T => {
+        const course = "Next level Web Dev" ;
+        return {
+            ...student,
+            course
+        }
+    }
+
+    const student1 = addCourseToStudent({name:'Mr. X', email: 'x@gmail.com', devType: 'NLWD'});
+    const student2 = addCourseToStudent({name:'Mr. Y', email: 'y@gmail.com', hasWatch: 'Apple Watch'});
     
     // 
 }
