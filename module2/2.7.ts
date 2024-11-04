@@ -29,7 +29,7 @@
         year: 200
     }
 
-    const result1 = getPropertyValue(car, 'sjs') // Argument of type '"sjs"' is not assignable to parameter of type '"name" | "year"'.
+    // const result1 = getPropertyValue(car, 'sjs') // Argument of type '"sjs"' is not assignable to parameter of type '"name" | "year"'.
     
     // 
 }
